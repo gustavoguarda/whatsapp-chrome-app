@@ -17,7 +17,7 @@ Chrome 30+
     ![Chrome](https://image.ibb.co/fBLOPT/chrome_permisson.jpg)
 
 2. Instalando a Packaged App
-    * Para instalar a app, clique no botão de configuração do chrome, selecione Tools -> Extensions (Ferramentas -> Extensões):
+    * Para instalar a app, clique no botão de configuração do chrome, selecione **More tools** -> **Extensions**:
     ![Chrome](https://image.ibb.co/kSJJPT/chrome_extension.jpg)
     * Marque o checkbox **Developer Mode** e clique em **Load unpacked extension**:
     ![Chrome](https://image.ibb.co/gk1oPT/chrome_extension2.jpg)
