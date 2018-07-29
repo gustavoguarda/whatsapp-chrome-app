@@ -2,6 +2,12 @@
   "name": "Whatsapp",
   "description": "Web WhatsApp",
   "version": "0.1",
+  "authors": [
+    {
+      "name": "Gustavo Guarda",
+      "email": "gustavoguarda@gmail.com"
+    }
+  ],
   "app": {
     "background": {
       "scripts": ["background.js"]
