@@ -1,0 +1,16 @@
+{
+  "name": "Whatsapp",
+  "description": "Web WhatsApp",
+  "version": "0.1",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "whatsapp-16.png", "128": "whatsapp-128.png" },
+  "permissions": [
+    "webview",
+    "audioCapture",
+    "videoCapture"
+  ]
+}
