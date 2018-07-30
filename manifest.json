@@ -2,7 +2,8 @@
   "name": "Whatsapp",
   "description": "Web WhatsApp",
   "version": "0.1",
-  "authors": [
+  "minimum_chrome_version": "30",
+  "author": [
     {
       "name": "Gustavo Guarda",
       "email": "gustavoguarda@gmail.com"
