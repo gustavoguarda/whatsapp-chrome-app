@@ -1,7 +1,7 @@
 {
   "name": "Whatsapp",
   "description": "Web WhatsApp",
-  "version": "0.1",
+  "version": "0.2",
   "minimum_chrome_version": "30",
   "author": [
     {
@@ -11,13 +11,23 @@
   ],
   "app": {
     "background": {
-      "scripts": ["background.js"]
+      "scripts": ["background.js"],
+      "persistent": false
     }
   },
   "icons": { "16": "whatsapp-16.png", "128": "whatsapp-128.png" },
   "permissions": [
     "webview",
     "audioCapture",
-    "videoCapture"
-  ]
+    "videoCapture",
+    "storage"
+  ],
+  "webview": {
+    "partitions": [
+      {
+        "name": "whatsapp",
+        "accessible_resources": [""]
+      }
+    ]
+  }
 }
