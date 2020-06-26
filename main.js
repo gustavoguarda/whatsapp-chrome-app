@@ -7,6 +7,9 @@ webview.addEventListener('permissionrequest', function (e) {
   if (e.permission === 'media') {
     e.request.allow();
   }
+  if (e.permission === 'fullscreen') {
+    e.request.allow();
+  }
 });
 
 webview.addEventListener('newwindow', function (e) {
